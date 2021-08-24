@@ -10,4 +10,6 @@ ports:
 
 tasks:
   - name: gtoolkit
-    command: ./run
+    command: |
+      cd p1
+      ./run
