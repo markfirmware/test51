@@ -1,0 +1,4 @@
+#!/bin/bash
+
+npx tailwindcss -o tailwind.css --watch --jit --purge="*.html" &
+npx browser-sync -s -w
