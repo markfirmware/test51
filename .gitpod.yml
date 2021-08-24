@@ -1,0 +1,13 @@
+ports:
+  - port: 3000
+    onOpen: open-preview
+  - port: 3001
+    onOpen: ignore
+  - port: 5900
+    onOpen: ignore
+  - port: 6080
+    onOpen: ignore
+
+tasks:
+  - name: gtoolkit
+    command: ./run
